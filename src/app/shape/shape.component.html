@@ -1,0 +1,12 @@
+<div class="shape"
+    cdkDrag 
+    (cdkDragStarted)="start($event)"
+    (cdkDragEnded)="drop($event)" 
+  >
+  <div class="shape-row" [ngClass]="hiddenClass" *ngFor="let y of yValues; let i = index">
+  <ng-template ngFor let-x [ngForOf]="xValues"
+    let-j="index">
+    <app-cell [filled]="shape.canBePlaced" [display]="shape.filled[x][y]"></app-cell>
+  </ng-template>
+  </div>
+</div>

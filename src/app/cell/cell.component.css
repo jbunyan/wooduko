@@ -1,0 +1,22 @@
+.cell {
+  width: 25px;
+  height: 25px;
+  border-style: outset;
+  box-sizing: border-box;
+}
+
+.cell-filled {
+  background-color: brown;
+}
+
+.cell-clear {
+  background-color: grey;
+}
+
+.cell-visible {
+
+}
+
+.cell-hidden {
+  visibility: hidden;
+}

@@ -1,0 +1,7 @@
+<div class="gameboard">
+  <div class="row-of-cells" *ngFor="let row of rows; let y = index">
+    <div class="cell" *ngFor="let column of columns; let x = index">
+      <app-cell [filled]="board[x][y]"></app-cell>
+    </div>
+  </div>  
+</div>

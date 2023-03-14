@@ -1,0 +1,12 @@
+.shape {
+  width: 125px;
+  margin-right: 25px;
+}
+
+.shape-row {
+  display: flex;
+}
+
+.shape-hidden {
+  visibility: hidden;
+}
